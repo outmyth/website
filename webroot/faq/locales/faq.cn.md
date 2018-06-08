@@ -8,7 +8,7 @@ A: Chia是一个处于上市前阶段的数字货币和区块链，其基于空�
 
 + <b>Q: 耕作是什么意思？</b>
 
-A: Chia的耕作有点像安全地产生区块的挖矿过程。耕作就是对你硬盘上未使用的存储空间进行快照（播种）。根据一位农民可以耕作的存储空间与网络上所有耕作过的存储空间的百分比关系，你应该能够获得跟你愿意用于耕作Chia的存储量相对应的抽奖类型的薪金。你用于耕作的未使用的空间越多，则胜出的几率就越大。购买硬盘来耕作Chia的奖金并不太多，因为Chia希望那时候周围会有非常多的空闲空间，不会逐步提高所有者的成本。Chia利用了这些空闲空间。由于在这世界里有如此多的存储空间，对于普通用户来说赢得奖项的几率极低，但考虑到她会使用少量的能源 Chia utilizes this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
+A: Chia的耕作类似于安全地生成区块的挖矿过程。耕作就是对你硬盘上未使用的存储空间进行快照（播种）。根据一位农民可以耕作的存储空间与网络上所有耕作过的存储空间的百分比关系，你应该能够获得跟你愿意用于耕作Chia的存储量相对应的抽奖类型的薪金。你用于耕作的未使用的空间越多，则胜出的几率就越大。购买硬盘来耕作Chia的奖金并不太多，因为Chia预计到那时候周围会有非常多的空闲空间，这不会逐步增加所有者的成本。Chia会利用这些空闲的空间。在这个世界上有如此多的存储空间，对于普通用户而言赢得奖项的几率极低，但是考虑到这只是使用很少的能源和带宽，并且空间都是空闲的，即使给你的奖励很少也不是一个大问题。在Chia的世界里没有矿池，矿工，ASIC矿机和能源浪费。
 
 
 
