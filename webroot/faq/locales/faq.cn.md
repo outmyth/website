@@ -27,7 +27,7 @@ A: Chia是利用存储空间（例如硬盘）进行耕种的，而非使用电�
 
 + <b>Q: 播种是什么意思？</b>
 
-A: 播种的过程需要反复读写已分配的耕种空间的每个扇区，但是硬盘一旦播种完成，你就可以对其进行耕种，只要那些证明在硬盘上还保留着。 is a process that requires reading and writing every sector of the allocated farming space more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. The initial seeding process fills the farmed space with proofs from random inputs and then runs a sort to make looking up those resulting proofs fast. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. Re-seeding storage gives no advantage normally. The only reason to reseed a drive is if too many of the existing proofs have been overwritten. Seeding a disk will take significant amounts of time once per drive but the goal is that an average farmer can seed their farmed space in 24 to 48 hours for initial set up.
+A: 播种的过程需要反复读写已分配的耕种空间的每个扇区；但是硬盘一旦播种完成，你就可以对其进行耕种，只要那些证明在硬盘上还保留着。首次播种过程会用根据随机输入生成的证明文件填充可被耕作的空间，然后执行排序然后进行排序以快速查询所得到的证明。这会使用底层直接访问接口来读取硬盘驱动器。客户端可以支持播种多个硬盘。通常对存储空间重新播种没有什么好处。只有当重写已有证明太多的时候，才需要重新播种一个硬盘。播种每个硬盘都需要花费相大量的时间，但目标是让一个普通的农民初始设置时可以在24到48小时内播种他们的耕种空间。
 
 
 
