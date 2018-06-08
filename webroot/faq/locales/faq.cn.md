@@ -2,13 +2,13 @@
 
 + <b>Q: 什么是Chia？</b>
 
-A: Chia是一个预发布的数字货币和区块链，其基于空间证明和时间证明的共识算法，而非传统意义上的工作量证明。Chia的共识机制是让“农场主”通过分配不用的存储空间来”耕作“自己的农场，他们通过解决区块难题而获得Chia币。Chia的“耕作” 结合使用了空间证明和时间证明两种共识算法，来降低曾经在基于空间证明的区块链上发生的那些已知的攻击。我们的目标是杜绝通过浪费大量的电力来让区块链变得安全，同时又能缓解中心化的程度（例如ASIC矿机挖矿）。在“播种”过程中，硬盘的空闲空间会被随机生成的工作证明所填充。
+A: Chia是一个预发布的数字货币和区块链，其基于空间证明和时间证明的共识算法，而非传统意义上的工作量证明。Chia的共识机制是让“农民”通过分配不用的存储空间来”耕作“自己的农场，他们通过解决区块难题而获得Chia币。Chia的“耕作” 结合使用了空间证明和时间证明两种共识算法，来降低曾经在基于空间证明的区块链上发生的那些已知的攻击。我们的目标是杜绝通过浪费大量的电力来让区块链变得安全，同时又能缓解中心化的程度（例如ASIC矿机挖矿）。在“播种”过程中，硬盘的空闲空间会被随机生成的工作证明所填充。
 
 
 
 + <b>Q: 耕作是什么意思？</b>
 
-A: Chia farming is a bit like mining in that it's how blocks are securely created. Farming works by carrying out a snapshot (seeding) of the unused storage available on your hard drive(s). Based on the storage a farmer farms as a percentage of all farmed storage on the network you should receive lottery type payouts for the amount of storage you are willing to allocate to farm Chia. The more unused space you allocate to farming the more likely you are to win. There will be little incentive to buy hard drives to farm Chia, as Chia expects that there is a very large amount of idle space sitting around at the moment not incrementally costing owners anything. Chia utilizes this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
+A: Chia的耕作有点像安全地产生区块的挖矿过程。耕作就是对你硬盘上未使用的存储空间进行快照（播种）。根据一位农民可以耕作的存储空间与网络上所有耕作过的存储空间的百分比关系，你应该能够获得跟你愿意用于耕作Chia的存储量相对应的抽奖类型的薪金。你用于耕作的未使用的空间越多，则胜出的几率就越大。购买硬盘来耕作Chia的奖金并不太多，因为Chia希望那时候周围会有非常多的空闲空间，不会逐步提高所有者的成本。Chia利用了这些空闲空间。由于在这世界里有如此多的存储空间，对于普通用户来说赢得奖项的几率极低，但考虑到她会使用少量的能源 Chia utilizes this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
 
 
 
