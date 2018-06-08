@@ -2,11 +2,11 @@
 
 + <b>Q: 什么是Chia？</b>
 
-A: Chia is a pre-launch digital currency and blockchain that relies upon proofs of space and proofs of time instead of traditional proofs of work. Chia "farms" via unused storage space that is allocated by "farmers" who will receive Chia coins for solving a block challenge as a consensus mechanism. Chia "farming" uses proof of space, co-ordinated with another consensus algorithm, proof of time, to mitigate known attacks on previous proof of space based blockchains. Our goal is to to prevent wasting massive amounts of electricity to secure a blockchain and lessen (e.g. ASIC-powered mining) centralisation. A hard disk will have its empty space filled with randomly generated proofs when "seeding."
+A: Chia是一个预发布的数字货币和区块链，其基于空间证明和时间证明的共识算法，而非传统意义上的工作量证明。Chia的共识机制是让“农场主”通过分配不用的存储空间来”耕作“自己的农场，他们通过解决区块难题而获得Chia币。Chia的“耕作” 结合使用了空间证明和时间证明两种共识算法，来降低曾经在基于空间证明的区块链上发生的那些已知的攻击。我们的目标是防止浪费大量的电力 Our goal is to to prevent wasting massive amounts of electricity to secure a blockchain and lessen (e.g. ASIC-powered mining) centralisation. A hard disk will have its empty space filled with randomly generated proofs when "seeding."
 
 
 
-+ <b>Q: 农场是什么意思？</b>
++ <b>Q: 耕作是什么意思？</b>
 
 A: Chia farming is a bit like mining in that it's how blocks are securely created. Farming works by carrying out a snapshot (seeding) of the unused storage available on your hard drive(s). Based on the storage a farmer farms as a percentage of all farmed storage on the network you should receive lottery type payouts for the amount of storage you are willing to allocate to farm Chia. The more unused space you allocate to farming the more likely you are to win. There will be little incentive to buy hard drives to farm Chia, as Chia expects that there is a very large amount of idle space sitting around at the moment not incrementally costing owners anything. Chia utilizes this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
 
@@ -48,7 +48,7 @@ A: 尚未开始编写代码。数学原语的工作业已完成，目前处于�
 
 
 
-+ <b>Q: 何时我能经营Chia农场？</b>
++ <b>Q: 何时我就能耕作Chia农场？</b>
 
 A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
 
@@ -72,7 +72,7 @@ A: Your chances of farming the next block are directly proportional to the amoun
 
 
 
-+ <b>Q: 是否值得购买硬盘来经营Chia农场？</b>
++ <b>Q: 是否值得购买硬盘来耕作Chia农场？</b>
 
 A: Chia believes that it will be unprofitable to buy hard drives just for the purposes of farming, as everyone will be able to get rewards from unused storage - which there is a lot of. Farming rewards will likely be small, but it isn't costing a farmer anything extra if you already have the storage for some other reason. People have already paid for a lot of unused storage capacity - there's ridiculous excess resources available - so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't "useful" farming in the sense that the calculation itself isn't productive, but it is leveraging a useful resource. To the extent that Chia unexpectedly drives developments that decrease the cost of storage, we think that's a benefit for society - especially when compared to wasting electricity on custom ASIC mining hardware.
 
@@ -108,7 +108,7 @@ A: We will be going with a modified Bitcoin script for starters and with a switc
 
 
 
-+ <b>Q: Chia农场耕种的难度有多大？</b>
++ <b>Q: Chia农场耕作的难度有多大？</b>
 
 A: Like Bitcoin, difficulty will dynamically adjust to keep block times regular. Farming difficulty will balance both the difficulty of proofs of space and proofs of time. As a result, as farming competition goes up, you can expect rewards from a particular amount of storage to go down. We do not expect farming to have a high enough expected value to be worth purchasing drives in order to farm.
 
