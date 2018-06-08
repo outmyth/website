@@ -44,7 +44,7 @@ A: Chia plans on doing some kind of sale to the public and we are working with o
 
 + <b>Q: 目前Chia开发处于什么阶段？</b>
 
-A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. We're hiring programmers right now and coding will begin soon. An existing and highly technical paper regarding proofs of space and avoiding Hellman's time-memory trade-off is <a href = "https://eprint.iacr.org/2017/893">available</a>.
+A: 尚未开始编写代码。数学原语的工作业已完成，目前处于准备出版阶段。 我们现在就在招募程序员，编码工作马上就会开始。关于空间证明和避免Hellman时空折衷的技术论文参见<a href = "https://eprint.iacr.org/2017/893">这里</a>。
 
 
 
