@@ -2,32 +2,32 @@
 
 + <b>Q: 什么是Chia？</b>
 
-A: Chia是一个处于上市前阶段的数字货币和区块链，其基于空间证明和时间证明的共识算法，而非传统意义上的工作量证明。Chia的共识机制是让“农民”通过分配不用的存储空间来”耕作“自己的农场，他们通过解决区块难题而获得Chia币。Chia的“耕作” 结合使用了空间证明和时间证明两种共识算法，来降低曾经在基于空间证明的区块链上发生的那些已知的攻击。我们的目标是杜绝通过浪费大量的电力来让区块链变得安全，同时又能缓解中心化的程度（例如ASIC矿机挖矿）。在“播种”过程中，硬盘的空闲空间会被随机生成的工作证明所填充。
+A: Chia是一个处于上市前阶段的数字货币和区块链，其基于空间证明和时间证明的共识算法，而非传统意义上的工作量证明。Chia的共识机制是让“农民”通过分配不用的存储空间来”耕种“自己的农场，他们通过解决区块难题而获得Chia币。Chia的“耕种” 结合使用了空间证明和时间证明两种共识算法，来降低曾经在基于空间证明的区块链上发生的那些已知的攻击。我们的目标是杜绝通过浪费大量的电力来让区块链变得安全，同时又能缓解中心化的程度（例如ASIC矿机挖矿）。在“播种”过程中，硬盘的空闲空间会被随机生成的工作证明所填充。
 
 
 
-+ <b>Q: 耕作是什么意思？</b>
++ <b>Q: 耕种是什么意思？</b>
 
-A: Chia的耕作类似于安全地生成区块的挖矿过程。耕作就是对你硬盘上未使用的存储空间进行快照（播种）。根据一位农民可以耕作的存储空间与网络上所有耕作过的存储空间的百分比关系，你应该能够获得跟你愿意用于耕作Chia的存储量相对应的抽奖类型的薪金。你用于耕作的未使用的空间越多，则胜出的几率就越大。购买硬盘来耕作Chia的奖金并不太多，因为Chia预计到那时候周围会有非常多的空闲空间，这不会逐步增加所有者的成本。Chia会利用这些空闲的空间。在这个世界上有如此多的存储空间，对于普通用户而言赢得奖项的几率极低，但是考虑到这只是使用很少的能源和带宽，并且空间都是空闲的，即使给你的奖励很少也不是一个大问题。在Chia的世界里没有矿池，矿工，ASIC矿机和能源浪费。
+A: Chia的耕种类似于安全地生成区块的挖矿过程。耕种就是对你硬盘上未使用的存储空间进行快照（播种）。根据一位农民可以耕种的存储空间与网络上所有耕种过的存储空间的百分比关系，你应该能够获得跟你愿意用于耕种Chia的存储量相对应的抽奖类型的薪金。你用于耕种的未使用的空间越多，胜出的几率就越大。购买硬盘来耕种Chia的奖金并不太多，因为Chia预计到那时候周围会有非常多的空闲空间，这不会逐步增加所有者的成本。Chia会利用这些空闲的空间。在这个世界上有如此多的存储空间，对于普通用户而言赢得奖项的几率极低，但是考虑到这只是使用很少的能源和带宽，并且空间都是空闲的，即使给你的奖励很少也不是一个大问题。在Chia的世界里没有矿池，矿工，ASIC矿机和能源浪费。
 
 
 
 + <b>Q: Chia和Bitcoin的主要差别是什么？</b>
 
-A: Chia是利用存储空间（例如硬盘）进行耕作的，而非使用电力进行挖矿。这样会接触到更广泛的普通用户，并极大地降低为让网络更安全而进行发电和定制硬件的消耗／浪费。Chia反对农民的中心化。Chia还会涵盖一整套针对比特币协议的基本优化：
-为更好地支持智能交易，万物皆<a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS签名</a>，并且它还包含一批　　　bugnd it will include a bunch of bug fixes to things like <a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">timewarp</a> while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: Chia是利用存储空间（例如硬盘）进行耕种的，而非使用电力进行挖矿。这样会接触到更广泛的普通用户，并极大地降低为让网络更安全而进行发电和定制硬件的消耗／浪费。Chia反对农民的中心化。Chia还会涵盖一整套针对比特币协议的基本优化：
+为更好地支持智能交易，万物皆<a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS签名</a>，并且它还修复了一批像<a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">时间扭曲</a>有关的bug，而且也把这些修复放回到了比特币上。目标是从此不可能出现硬分叉，从而根据用户的选择和类似比特币那样的去中心化的激励机制实现自治。
 
 
 
 + <b>Q: 什么是＂空间证明＂？</b>
 
-"Proof of space" should not be confused with storage. Storage via a blockchain protocol is storage of some data that is directly useful. Proof of storage protocols like Filecoin, MaidSafe, Sia, or Storj require ridiculous amounts of bandwidth and those concepts will not be used in the Chia protocol. Proofs of space are data which is useless for anything but generating proofs of space. Making a proof of space or providing a proof to the network requires essentially no bandwidth. A proof of space can be thought of as a precommitment to keeping some storage unused. Client software will make managing farmed storage easy for farmers as they will have options to incrementally shrink the size of their farm to make room for their useful files as needed.
+不要把＂空间证明＂跟存储混淆在一起。区块链协议所指的存储是那些直接有用的存储。像Filecoin，MaidSafe，Sia或Storj那样的存储证明协议需要的带宽量听起来非常荒谬，而这些概念将不会用在Chia协议里面。空间证明指的是那些完全没有用的数据，他们只是用来生成空间证明。执行空间证明或者为网络提供证明基本上对带宽没有什么需求。可以把空间证明看作是一种预留某些不用的存储空间的事先承诺。客户端软件让农民易于管理耕种过的存储空间，他们可以选择逐步地收缩自己农场的大小，从而腾出空间给他们真正有用的文件。
 
 
 
 + <b>Q: 播种是什么意思？</b>
 
-A: Seeding is a process that requires reading and writing every sector of the allocated farming space more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. The initial seeding process fills the farmed space with proofs from random inputs and then runs a sort to make looking up those resulting proofs fast. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. Re-seeding storage gives no advantage normally. The only reason to reseed a drive is if too many of the existing proofs have been overwritten. Seeding a disk will take significant amounts of time once per drive but the goal is that an average farmer can seed their farmed space in 24 to 48 hours for initial set up.
+A: 播种的过程需要反复读写已分配的耕种空间的每个扇区，但是硬盘一旦播种完成，你就可以对其进行耕种，只要那些证明在硬盘上还保留着。 is a process that requires reading and writing every sector of the allocated farming space more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. The initial seeding process fills the farmed space with proofs from random inputs and then runs a sort to make looking up those resulting proofs fast. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. Re-seeding storage gives no advantage normally. The only reason to reseed a drive is if too many of the existing proofs have been overwritten. Seeding a disk will take significant amounts of time once per drive but the goal is that an average farmer can seed their farmed space in 24 to 48 hours for initial set up.
 
 
 
@@ -49,7 +49,7 @@ A: 尚未开始编写代码。数学原语的工作业已完成，目前处于�
 
 
 
-+ <b>Q: 何时我就能耕作Chia农场？</b>
++ <b>Q: 何时我就能耕种Chia农场？</b>
 
 A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
 
