@@ -84,7 +84,7 @@ A: Burstcoin doesn't have the proof of time component therefore there are attack
 
 
 
-+ <b>Q: How is Chia going to be funded?</b>
++ <b>Q: Chia将如何进行融资？</b>
 
 A: Chia has raised a seed round of funding but we have enough development work to do that raising funds in the future is necessary to make it happen. We're going to try to do so in a way which is as transparent and open to the public as possible.
 
@@ -96,7 +96,7 @@ A: Chia will support Lightning Network out of the box in addition to its blockch
 
 
 
-+ <b>Q: Any other Chia developments in the works?</b>
++ <b>Q: 还有哪些其他的开发工作呢？</b>
 
 A: After the initial release our focus will be on supporting Lightning as it is today, adding in off-chain channels, supporting MAST and probably <a href = "https://blockstream.com/simplicity.pdf">Simplicity</a> and covenants to support vaults. Chia is going to support atomic swaps out of the gate. We're starting with Bitcoin script using BLS signatures instead of DSA. The plan is to roll releases out in conjunction with Bitcoin rollouts because it's based on the same codebase.
 
@@ -108,48 +108,48 @@ A: We will be going with a modified Bitcoin script for starters and with a switc
 
 
 
-+ <b>Q: How will Chia farming difficulty adjust?</b>
++ <b>Q: Chia农场耕种的难度有多大？</b>
 
 A: Like Bitcoin, difficulty will dynamically adjust to keep block times regular. Farming difficulty will balance both the difficulty of proofs of space and proofs of time. As a result, as farming competition goes up, you can expect rewards from a particular amount of storage to go down. We do not expect farming to have a high enough expected value to be worth purchasing drives in order to farm.
 
 
 
-+ <b>Q: How large will a hard drive have to be?</b>
++ <b>Q: 硬盘必须要有多大呢？</b>
 
 A: There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
 
 
 
-+ <b>Q: Would I be able to farm Chia on my desktop?</b>
++ <b>Q: 我能在台式电脑上经营Chia农场否？</b>
 
 A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning and the fact that it's not competitive with ASIC miners. Bandwidth requirements are also expected to be very low.
 
 
 
-+ <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
++ <b>Q: Chia是否采用与比特币类似的容量？</b>
 
 A: There will be three halvings of Chia farming rewards to ultimately get to a low fixed amount of chia rewarded to farmers per block. The coins in circulation continues to increaseat the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence. To give a sense of what this means in practice, it will take approximately 153 years for the amount of Chia to double after network launch.
 
 
 
-+ <b>Q: How is Chia resistant to miner centralization?</b>
++ <b>Q: Chia如何防范矿工中心化？</b>
 
 A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so much empty storage space available and anyone with unused storage space will be able to farm, this should lead to farming decentralization. Bitcoin's proof of work mining system drives the formation of blocks toward a limited number of miners because aquiring specialized ASIC mining equipment and locating them near cheap electricity is beyond most people's ability to invest. Manufacturers of storage could optimize storage hardware to farm faster or cheaper, but the cost of doing so is probably not worth the reward and that would otherwise have the benefit of generally decreasing the cost of storage for everyone. Chia should become the most decentralized cryptocurrency on the market.
 
 
 
-+ <b>Q: Will Chia be open source?</b>
++ <b>Q: Chia会开源吗？</b>
 
 A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href = "https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is generally available.
 
 
 
-+ <b>Q: Do you have whitepapers where I can read more?</b>
++ <b>Q: 哪里可以读到更多的技术白皮书呢？</b>
 
 A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt and our <a href = "https://eprint.iacr.org/2018/183">second paper</a> which won best paper at Eurocrypt. There will be at least one more paper going over how to hook the whole thing together into a blockchain.
 
 
 
-+ <b>Q: Where can I find out more?</b>
++ <b>Q: 哪里可以找到更多的信息呢？</b>
 
 A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
