@@ -1,84 +1,84 @@
 ### Chia FAQ
 
-+ <b>Q: What is Chia?</b>
++ <b>Q: 什么是Chia？</b>
 
 A: Chia is a pre-launch digital currency and blockchain that relies upon proofs of space and proofs of time instead of traditional proofs of work. Chia "farms" via unused storage space that is allocated by "farmers" who will receive Chia coins for solving a block challenge as a consensus mechanism. Chia "farming" uses proof of space, co-ordinated with another consensus algorithm, proof of time, to mitigate known attacks on previous proof of space based blockchains. Our goal is to to prevent wasting massive amounts of electricity to secure a blockchain and lessen (e.g. ASIC-powered mining) centralisation. A hard disk will have its empty space filled with randomly generated proofs when "seeding."
 
 
 
-+ <b>Q: What does farming mean?</b>
++ <b>Q: 农场是什么意思？</b>
 
 A: Chia farming is a bit like mining in that it's how blocks are securely created. Farming works by carrying out a snapshot (seeding) of the unused storage available on your hard drive(s). Based on the storage a farmer farms as a percentage of all farmed storage on the network you should receive lottery type payouts for the amount of storage you are willing to allocate to farm Chia. The more unused space you allocate to farming the more likely you are to win. There will be little incentive to buy hard drives to farm Chia, as Chia expects that there is a very large amount of idle space sitting around at the moment not incrementally costing owners anything. Chia utilizes this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
 
 
 
-+ <b>Q: Main difference between Chia and Bitcoin?</b>
++ <b>Q: Chia和Bitcoin的主要差别是什么？</b>
 
 A: Chia is farmed with storage space like hard drives instead of mining with processing power. This allows broader access to everyday users, and vastly reduces the cost/waste of securing the network in electricity burned or custom hardware consumed. Chia is resistant to farmer centralization. Chia also will include a bunch of basic improvements to the bitcoin protocol: Everything is <a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS signatures</a> for better smart transaction support, and it will include a bunch of bug fixes to things like <a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">timewarp</a> while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
-+ <b>Q: What is "proof of space?"</b>
++ <b>Q: 什么是＂空间证明＂？</b>
 
 "Proof of space" should not be confused with storage. Storage via a blockchain protocol is storage of some data that is directly useful. Proof of storage protocols like Filecoin, MaidSafe, Sia, or Storj require ridiculous amounts of bandwidth and those concepts will not be used in the Chia protocol. Proofs of space are data which is useless for anything but generating proofs of space. Making a proof of space or providing a proof to the network requires essentially no bandwidth. A proof of space can be thought of as a precommitment to keeping some storage unused. Client software will make managing farmed storage easy for farmers as they will have options to incrementally shrink the size of their farm to make room for their useful files as needed.
 
 
 
-+ <b>Q: What does Chia seeding mean?</b>
++ <b>Q: 播种是什么意思？</b>
 
 A: Seeding is a process that requires reading and writing every sector of the allocated farming space more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. The initial seeding process fills the farmed space with proofs from random inputs and then runs a sort to make looking up those resulting proofs fast. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. Re-seeding storage gives no advantage normally. The only reason to reseed a drive is if too many of the existing proofs have been overwritten. Seeding a disk will take significant amounts of time once per drive but the goal is that an average farmer can seed their farmed space in 24 to 48 hours for initial set up.
 
 
 
-+ <b>Q: When will Chia launch?</b>
++ <b>Q: Chia产品何时推出？</b>
 
 A: Chia plans a coin sale in Q2 and a network launch by the end of 2018, but this is not set in stone and is dependent on further development.
 
 
 
-+ <b>Q: How will I be able to buy Chia?</b>
++ <b>Q: 我如何购买Chia？</b>
 
 A: Chia plans on doing some kind of sale to the public and we are working with our lawyers at the moment. The goal of our sale is to be as widely available to investors as possible. We need to do some amount of additional fundraising as we're just getting Chia up and running and it would be nice to fund ongoing development and enhancements in the future. There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and the team. The funding mechanism and pre-farm amounts will be transparent and available publicly before coin sales commence.
 
 
 
-+ <b>Q: Where is Chia development now?</b>
++ <b>Q: 目前Chia开发处于什么阶段？</b>
 
 A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. We're hiring programmers right now and coding will begin soon. An existing and highly technical paper regarding proofs of space and avoiding Hellman's time-memory trade-off is <a href = "https://eprint.iacr.org/2017/893">available</a>.
 
 
 
-+ <b>Q: When can I farm Chia?</b>
++ <b>Q: 何时我能经营Chia农场？</b>
 
 A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
 
 
 
-+ <b>Q: What does proof of time mean?</b>
++ <b>Q: 时间证明是什么意思？</b>
 
 A: Proofs of time are the second step of farming. Proofs of time depend on a function that takes a certain amount of wall clock time to generate a proof, but that proof is canonically correct for the current block and can be quickly verified as correct by anyone in the network. Chia expects there to be a limited number of proof of time nodes as those nodes are not rewarded for coming up with the current block's proof of time. Only the farmer who had the best proof of space from his farm will be rewarded with Chia coin at each block.
 
 
 
-+ <b>Q: Why the name Chia?</b>
++ <b>Q: 为何命名为Chia？</b>
 
 A: "Chia" is the name of a grain you might have heard of before. It's green. It goes with the "farming" theme.
 
 
 
-+ <b>Q: Does more hard disk space mean more Chia?</b>
++ <b>Q: 更好的硬盘空间是否就意味着更多的Chia？</b>
 
 A: Your chances of farming the next block are directly proportional to the amount of storage space you allocate to Chia farming.
 
 
 
-+ <b>Q: Is it worth buying hard drives to farm Chia?</b>
++ <b>Q: 是否值得购买硬盘来经营Chia农场？</b>
 
 A: Chia believes that it will be unprofitable to buy hard drives just for the purposes of farming, as everyone will be able to get rewards from unused storage - which there is a lot of. Farming rewards will likely be small, but it isn't costing a farmer anything extra if you already have the storage for some other reason. People have already paid for a lot of unused storage capacity - there's ridiculous excess resources available - so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't "useful" farming in the sense that the calculation itself isn't productive, but it is leveraging a useful resource. To the extent that Chia unexpectedly drives developments that decrease the cost of storage, we think that's a benefit for society - especially when compared to wasting electricity on custom ASIC mining hardware.
 
 
 
-+ <b>Q: How is Chia any different from other storage coins such as Burst?</b>
++ <b>Q: Chia跟其他存储相关的币（例如Burst） 有何不同？</b>
 
 A: Burstcoin doesn't have the proof of time component therefore there are attacks that make it unsuitable as a mining algorithm. Additionally, Chia simplifies the math used for proofs of space. Chia also inherits the real world deployment experience of the Bitcoin protocol.
 
@@ -90,7 +90,7 @@ A: Chia has raised a seed round of funding but we have enough development work t
 
 
 
-+ <b>Q: How fast will Chia transactions be?</b>
++ <b>Q: Chia的交易会有多快？</b>
 
 A: Chia will support Lightning Network out of the box in addition to its blockchain, so payment speed will depend on whether there is an available lightning path. Lightning transactions take less than a few seconds on reasonable network latencies. Our block times for on-chain transactions will be similar to Bitcoin.
 
@@ -102,7 +102,7 @@ A: After the initial release our focus will be on supporting Lightning as it is 
 
 
 
-+ <b>Q: What scripting language will Chia use?</b>
++ <b>Q: Chia会用到哪种脚本语言？</b>
 
 A: We will be going with a modified Bitcoin script for starters and with a switch to BLS signatures. <a href = "https://www.youtube.com/watch?v=Og52VDU-pjc">This talk</a> explains our reasons for both changes. Longer term we will add Simplicity once it's available. We're building on the Bitcoin codebase, so core development will be in C/C++.
 
