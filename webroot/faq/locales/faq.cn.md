@@ -14,7 +14,8 @@ A: Chia的耕作类似于安全地生成区块的挖矿过程。耕作就是对�
 
 + <b>Q: Chia和Bitcoin的主要差别是什么？</b>
 
-A: Chia is farmed with storage space like hard drives instead of mining with processing power. This allows broader access to everyday users, and vastly reduces the cost/waste of securing the network in electricity burned or custom hardware consumed. Chia is resistant to farmer centralization. Chia also will include a bunch of basic improvements to the bitcoin protocol: Everything is <a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS signatures</a> for better smart transaction support, and it will include a bunch of bug fixes to things like <a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">timewarp</a> while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: Chia是利用存储空间（例如硬盘）进行耕作的，而非使用电力进行挖矿。这样会接触到更广泛的普通用户，并极大地降低为让网络更安全而进行发电和定制硬件的消耗／浪费。Chia反对农民的中心化。Chia还会涵盖一整套针对比特币协议的基本优化：
+为更好地支持智能交易，万物皆<a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS签名</a>，并且它还包含一批　　　bugnd it will include a bunch of bug fixes to things like <a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">timewarp</a> while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
