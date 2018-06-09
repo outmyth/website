@@ -33,13 +33,13 @@ A: 播种的过程需要反复读写已分配的耕种空间的每个扇区；�
 
 + <b>Q: Chia产品何时推出？</b>
 
-A: Chia plans a coin sale in Q2 and a network launch by the end of 2018, but this is not set in stone and is dependent on further development.
+A: Chia计划在2018年第2季度推出代币销售，并在2018年年底上线主网， 但这些尚未敲定并取决于下一步的进展。
 
 
 
 + <b>Q: 我如何购买Chia？</b>
 
-A: Chia plans on doing some kind of sale to the public and we are working with our lawyers at the moment. The goal of our sale is to be as widely available to investors as possible. We need to do some amount of additional fundraising as we're just getting Chia up and running and it would be nice to fund ongoing development and enhancements in the future. There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and the team. The funding mechanism and pre-farm amounts will be transparent and available publicly before coin sales commence.
+A: Chia计划以某种形式向公众进行销售，并且目前正在跟我们的律师就此展开合作。我们销售的目标是面对尽可能广泛的投资人。我们刚刚让Chia上线运行，因此需要进行一些额外的筹款，这将有利于我们以后持续的发展和提高。我们会对筹来的款项进行耕种前的分拆，一部分作为未来发展的专款，另外的则用来作为团队经费。筹资机制和耕种前的金额是透明的，并在代币销售开始前向公众公布。
 
 
 
@@ -51,13 +51,13 @@ A: 尚未开始编写代码。数学原语的工作业已完成，目前处于�
 
 + <b>Q: 何时我就能耕种Chia农场？</b>
 
-A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
+A: 我们希望会在2018年第2季度公开发售，一旦主网上线（预计2018年底之前）你就能够耕种了。这会随着开发的不断深入而变化。
 
 
 
 + <b>Q: 时间证明是什么意思？</b>
 
-A: Proofs of time are the second step of farming. Proofs of time depend on a function that takes a certain amount of wall clock time to generate a proof, but that proof is canonically correct for the current block and can be quickly verified as correct by anyone in the network. Chia expects there to be a limited number of proof of time nodes as those nodes are not rewarded for coming up with the current block's proof of time. Only the farmer who had the best proof of space from his farm will be rewarded with Chia coin at each block.
+A: 时间证明是耕种的第二步。时间证明依赖函数　通过某个挂钟时间数值来生成证明 are the second step of farming. Proofs of time depend on a function that takes a certain amount of wall clock time to generate a proof, but that proof is canonically correct for the current block and can be quickly verified as correct by anyone in the network. Chia expects there to be a limited number of proof of time nodes as those nodes are not rewarded for coming up with the current block's proof of time. Only the farmer who had the best proof of space from his farm will be rewarded with Chia coin at each block.
 
 
 
