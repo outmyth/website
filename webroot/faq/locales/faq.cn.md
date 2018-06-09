@@ -57,7 +57,7 @@ A: 我们希望会在2018年第2季度公开发售，一旦主网上线（预计
 
 + <b>Q: 时间证明是什么意思？</b>
 
-A: 时间证明是耕种的第二步。时间证明依赖函数　通过某个挂钟时间数值来生成证明 are the second step of farming. Proofs of time depend on a function that takes a certain amount of wall clock time to generate a proof, but that proof is canonically correct for the current block and can be quickly verified as correct by anyone in the network. Chia expects there to be a limited number of proof of time nodes as those nodes are not rewarded for coming up with the current block's proof of time. Only the farmer who had the best proof of space from his farm will be rewarded with Chia coin at each block.
+A: 时间证明是耕种的第二步。时间证明通过一个函数根据挂钟时间的具体数值来生成证明，但是这个证明对于当前区块是正确的，并且能够被网络中的任何人快速地进行验证。Chia希望时间证明节点的数量是有限的，因为这些节点由于为当前区块提供时间证明而无法获得奖励。只有在自己的农场中拥有最佳空间证明的农民才会在每个区块获得Chia代币奖励。
 
 
 
